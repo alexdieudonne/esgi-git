@@ -18,13 +18,8 @@ body:
     validations:
       required: false
   - type: markdown
-    id: what-happened
     attributes:
-      label: Qu'est ce qui s'est passé?
-      description: Racontez nous ce qui s'est passé, qu'est ce que vous faisiez lorsque cela s'est produit, Vous pouvez rajouter aussi des images pour illustrer vos dires?
-      placeholder: Dites nous tous !
-    validations:
-      required: true
+      value:  Racontez nous ce qui s'est passé, qu'est ce que vous faisiez lorsque cela s'est produit, Vous pouvez rajouter aussi des images pour illustrer vos dires?
   - type: dropdown
     id: version
     attributes:
